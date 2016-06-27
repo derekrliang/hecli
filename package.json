@@ -1,0 +1,24 @@
+{
+  "name": "hecli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": "./cli.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/derekrliang/hecli.git"
+  },
+  "author": "Derek Liang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/derekrliang/hecli/issues"
+  },
+  "homepage": "https://github.com/derekrliang/hecli#readme",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "meow": "^3.7.0"
+  }
+}
