@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "xo"
   },
   "bin": "./cli.js",
   "repository": {
@@ -20,5 +20,8 @@
   "dependencies": {
     "chalk": "^1.1.3",
     "meow": "^3.7.0"
+  },
+  "devDependencies": {
+    "xo": "^0.16.0"
   }
 }
