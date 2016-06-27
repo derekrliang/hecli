@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "xo"
+    "test": "xo && ava"
   },
   "bin": "./cli.js",
   "repository": {
@@ -22,6 +22,7 @@
     "meow": "^3.7.0"
   },
   "devDependencies": {
+    "ava": "^0.15.2",
     "xo": "^0.16.0"
   }
 }
